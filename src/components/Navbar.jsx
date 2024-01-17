@@ -28,7 +28,7 @@ const Navbar = () => {
                             {navlinks.map(({ link, path }) => <a className='block hover:text-gray-300' key={link} href={path}>{link}</a>)}
                         </ul>
                     </div>
-                    <div className='space-x-4 hidden md:flex items-center raf'>
+                    <div className='space-x-4 hidden md:flex items-center'>
                         <a href="/" className='text-maincolor text-[20px] font-semibold'>{language}</a>
                         <button className='h-[46px] w-[95px] rounded-md p-3 bg-background text-xl font-semibold'>Sign up</button>
                     </div>
