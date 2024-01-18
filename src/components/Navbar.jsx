@@ -5,6 +5,8 @@ import { FaAlignJustify, FaX } from "react-icons/fa6";
 const Navbar = () => {
 
     const [isMenuOpen,setIsMesnuOpen] = useState(false);
+
+    
     const toggleMenu =() =>{
         setIsMesnuOpen(!isMenuOpen)
     }
