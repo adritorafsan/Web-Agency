@@ -1,8 +1,9 @@
-import React from 'react'
+import Bannerimg from '../assets/Bannerimg.png'
+
 
 const Home = () => {
   return (
-    <div></div>
+   
   )
 }
 

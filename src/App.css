@@ -2,3 +2,9 @@
 body{
     font-family: 'Jost', sans-serif;
 }
+.primaryButton{
+    @apply w-[225px] h-[55.06px] bg-violet-400 rounded hover:bg-violet-600 transition-all duration-500
+}
+.Homebg{
+    background:linear-gradient(172deg, #EE9AE5 0.53%, #5961F9 38.96%);
+}
