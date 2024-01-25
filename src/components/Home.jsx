@@ -5,7 +5,7 @@ const Home = () => {
   const HomeHeading ="Develop your skills \n without diligence"
   const HomeP = "A good example of a paragraph contains a topic sentence, details and a \nconclusion. There are many different kinds of animals that live in China."
   return (
-   <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-20'>
+   <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24'>
    <div className='Homebg rounded-xl rounded-br-[80px] md:p-9 px-4 py-9'>
     <div className='flex flex-col justify-between items-center gap-2 md:gap-10 md:flex-row-reverse'>
       <div><img src={bannerImg} alt="" className='lg:h-[386px] h-[346px]' /></div>
