@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className='flex space-x-12 items-center'>
                         <a className='text-2xl text-maincolor font-semibold flex items-center space-x-3 ' href="/"><img className='w-10 inline-block' src={logo} alt="" /><span>XYZ</span></a>
                         <ul className='md:flex space-x-12 hidden'>
-                            {navlinks.map(({ link, path }) => <a className='block hover:text-gray-300' key={link} href={path}>{link}</a>)}
+                            {navlinks.map(({ link, path }) => <a className='block  hover:text-gray-300' key={link} href={path}>{link}</a>)}
                         </ul>
                     </div>
                     <div className='space-x-4 hidden md:flex items-center'>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className={`md:hidden space-y-4 px-4 pt-24 pb-5 bg-background ${ isMenuOpen ? "block fixed top-0 left-0 right-0" :"hidden"}`}>
-            {navlinks.map(({ link, path }) => <a className='block hover:text-gray-300' key={link} href={path}>{link}</a>)}
+            {navlinks.map(({ link, path }) => <a className='block text-white hover:text-gray-300' key={link} href={path}>{link}</a>)}
             </div>
 
             </>
