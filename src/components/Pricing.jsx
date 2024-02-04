@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { FaArrowRight } from "react-icons/fa6";
 
 
 const Pricing = () => {
@@ -36,6 +37,16 @@ const Pricing = () => {
                 <p className="text-violet-500 text-4xl font-bold mt-5 text-center">
                      {IsYearly ? `$${pkg.yearlyprice}` :`$${pkg.monthlyprice} `}<span className="text-gray-600 text-lg font-semibold">/{IsYearly ? "Year" :"Month"}</span>
                 </p>
+                <ul className="space-y-2 mt-3">
+                    <li className="flex space-x-2 text-md font-semibold text-maincolor items-center"><FaArrowRight /> <p> Videos of Lessons</p></li>
+                    <li className="flex space-x-2 text-md font-semibold text-maincolor items-center"><FaArrowRight /> <p> Homework check</p></li>
+                    <li className="flex space-x-2 text-md font-semibold text-maincolor items-center"><FaArrowRight /> <p>Additional practical task</p></li>
+                    <li className="flex space-x-2 text-md font-semibold text-maincolor items-center"><FaArrowRight /> <p> Monthly conferences </p></li>
+                    <li className="flex space-x-2 text-md font-semibold text-maincolor items-center"><FaArrowRight /> <p> Personal advice from teachers</p></li>             
+                </ul>
+                <div className="w-full mx-auto mt-5 flex items-center justify-center">
+                <button className="normalButton">Get started</button>
+                </div>
             </div>)}
         </div>
 
