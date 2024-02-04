@@ -3,6 +3,7 @@ import About from './components/About'
 import Feature from './components/Feature'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
+import Pricing from './components/Pricing'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   <Home />
   <Feature />
   <About />
+  <Pricing />
     </>
   )
 }
