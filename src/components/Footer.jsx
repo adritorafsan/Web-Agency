@@ -1,4 +1,9 @@
 import logo from '../assets/logo.png'
+import { FaFacebookF ,  FaTwitter , FaSquareInstagram , FaYoutube } from "react-icons/fa6";
+
+
+
+{/* <FaFacebookF />  <FaTwitter /> <FaSquareInstagram /> <FaYoutube />*/}
 
 const Footer = () => {
 
@@ -64,7 +69,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
+      <hr />
+      <div className='flex flex-col md:flex-row justify-between items-center'>
+        <div><h2  className='text-white'>@ CodeCraft  --- 2024. All rights reserved.</h2> </div>
+          <div className='text-white flex gap-8 mt-3'>      
+          <a href="https://www.facebook.com/adritorafsan" target='_blank' ><FaFacebookF className='h-7 w-7' /> </a>
+          <a href="https://twitter.com/adrito_rafsan" target='_blank' > <FaTwitter  className='h-7 w-7' /> </a>
+          <a href="https://www.instagram.com/adritorafsan/" target='_blank' ><FaSquareInstagram  className='h-7 w-7' /> </a>
+          <a href="https://www.youtube.com/channel/UCLUlzYryKHAEEzc0X-mX6hw" target='_blank' ><FaYoutube  className='h-7 w-7' /> </a>  
+        </div>  
+      </div>
     </div>
   )
 }
