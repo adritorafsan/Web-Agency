@@ -18,13 +18,13 @@ const Pricing = () => {
             <div className="text-center ">
                 <h2 className="md:text-5xl text-2xl text-maincolor font-extrabold mb-2">Here are all our plans</h2>
                 <p className="text-lg text-gray-400 md:w-2/4 mx-auto">A simple paragraph is comprised of three major components. The which is often a declarative sentence.</p>
-                <div>
-                    <label htmlFor="toggle" className="inline-flex items-center mt-12 cursor-pointer"> 
+                <div className="sm:w-2/4">
+                    <label htmlFor="toggle" className="inline-flex flex-col md:flex-row items-center mt-12 cursor-pointer"> 
                         <span className="mr-8 text-2xl font-semibold ">Monthly</span>
                         <div className="h-8 w-16 rounded-full bg-gray-400 ">
                             <div className={`w-8 h-8 rounded-full transition-all ease-out duration-200 ${IsYearly ? "bg-violet-500 ml-8" : "bg-gray-800"}`}></div>
                         </div>
-                        <span className="ml-8 text-2xl font-semibold ">Yearly</span>
+                        <span className="md:ml-8 text-2xl font-semibold ">Yearly</span>
                     </label>
                     <input type="checkbox"  id="toggle" className="hidden" checked ={IsYearly} onChange={ () => setIsYearly(!IsYearly)} />
                 </div>

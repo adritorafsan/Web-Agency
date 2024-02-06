@@ -25,7 +25,7 @@ const Navbar = () => {
             <nav className=' bg-white md:px-14 p-4 max-w-screen-2xl mx-auto text-maincolor fixed z-50 top-0 left-0 right-0 border-b'>
                 <div className='container mx-auto flex justify-between items-center font-medium'>
                     <div className='flex space-x-12 items-center'>
-                        <a className='text-2xl text-maincolor font-semibold flex items-center space-x-3 ' href="/"><img className='w-10 inline-block' src={logo} alt="" /><span>XYZ</span></a>
+                        <a className='text-2xl text-maincolor font-semibold flex items-center space-x-3 ' href="/"><img className='w-10 inline-block' src={logo} alt="" /><span>CodeCraft</span></a>
                         <ul className='md:flex space-x-12 hidden'>
                             {navlinks.map(({ link, path }) => <a className='block  hover:text-gray-300' key={link} href={path}>{link}</a>)}
                         </ul>
