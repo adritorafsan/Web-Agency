@@ -2,7 +2,7 @@ import Featureimg from '../assets/Feature.png'
 
 const Feature = () => {
   return (
-    <div className='my-24 md:px-14 px-4 max-w-screen-2xl mx-auto'>
+    <div className='my-24 md:px-14 px-4 max-w-screen-2xl mx-auto' id='feature'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-10'>
             <div className='lg:w-1/4'>
                 <h2 className='text-[40px] font-bold text-maincolor'>Why we are better than others</h2>

@@ -3,7 +3,7 @@ import about2 from '../assets/about2.png'
 
 const About = () => {
     return (
-        <div className="md:px-14 p-4 max-w-screen-2xl mx-auto my-24">
+        <div className="md:px-14 p-4 max-w-screen-2xl mx-auto my-24" id='about'>
             <div className='flex flex-col lg:flex-row-reverse justify-between items-start lg:items-center md:gap-10 gap-4'>
                 <div className='w-full md:w-2/4 space-y-5'>
                     <h2 className='  text-maincolor leading-relaxed font-bold text-xl  md:text-4xl'>We have been improving our product <span className='text-[#9A7AF1]'>for many years.</span> </h2>
