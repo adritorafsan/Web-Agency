@@ -1,4 +1,7 @@
 import bannerImg from '../assets/Bannerimg.png'
+import { motion } from "framer-motion";
+import { variants } from '../Variants';
+
 
 
 const Home = () => {
@@ -8,7 +11,13 @@ const Home = () => {
    <div className='md:px-12 p-4 max-w-screen-2xl mx-auto mt-24' id='home'>
    <div className='Homebg rounded-xl rounded-br-[80px] md:p-9 px-4 py-9'>
     <div className='flex flex-col justify-between items-center gap-2 md:gap-10 md:flex-row-reverse'>
-      <div><img src={bannerImg} alt="" className='lg:h-[386px] h-[346px]' /></div>
+      <motion.div
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={variants[left]}
+       
+       ><img src={bannerImg} alt="" className='lg:h-[386px] h-[346px]' /></motion.div>
       <div className='text-white md:w-3/5 flex flex-col  md:gap-10'>
         <h2 className='md:text-7xl text-4xl  font-bold leading-relaxed'>{HomeHeading}</h2>
         <div className='flex flex-col gap-3'>
